@@ -166,8 +166,6 @@ for i in range(0, ensemble_len):
     d2v_rf = d2v_rf_res[i]
     d2v_cnn = d2v_cnn_res[i]
     
-    bert = bert_res[i]
-    
     fold_len = len(pc6_svm)
     for j in range(0, fold_len):
         score_list = []
